@@ -1,0 +1,7 @@
+{
+  "name": "project-angela",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Panduan interaktif Mobile Legends: Project Angela (HTML, CSS, JavaScript + Vercel API)",
+  "engines": { "node": ">=18" }
+}

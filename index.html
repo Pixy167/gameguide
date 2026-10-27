@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Project: Angela — Panduan Interaktif Mobile Legends</title><meta name="description" content="Panduan interaktif hero Angela (Mobile Legends): skill, build item, emblem, battle spell, dan strategi bermain."><meta name="theme-color" content="#0b0714"><meta property="og:title" content="Project: Angela"><meta property="og:description" content="Panduan interaktif hero Angela — Mobile Legends: Bang Bang."><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 24 24%27%3E%3Cpath fill=%27%23ff2d8a%27 d=%27M12 21s-8-5.5-8-11a4.5 4.5 0 018-2.8A4.5 4.5 0 0120 10c0 5.5-8 11-8 11z%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="vp"><div id="st">
+<canvas id="cv" width="1920" height="1080"></canvas>
+<button class="bt dk" id="sn" data-a="mute" aria-label="Suara"></button>
+<div id="md"></div><div id="fx"></div><div id="ts"></div>
+<button id="tap" class="bt"><span class="o">PROJECT: ANGELA</span><span>TAP TO START</span></button>
+</div>
+<div id="rot"><svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#ff2d8a" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2"/></svg><span>Putar layar ke landscape</span><button id="rk">Tetap lanjut</button></div></div>
+<audio id="bgm" loop preload="auto"></audio>
+
+
+<script src="bgm-loader.js"></script>
+<script src="app.js"></script>
+<!-- ===== PEMUTAR MUSIK (tambahan): tombol cakram di kanan bawah membuka kartu "Sedang diputar" ===== -->
+<script src="player.js"></script>
+<script src="ai-lobby.js"></script>
+<script src="heroes.js"></script>
+<script src="hero-select.js"></script>
+<script>addEventListener('load',function(){if(typeof fit!=='function'){var d=document.createElement('div');d.style.cssText='position:fixed;inset:0;z-index:99;background:#05030f;color:#fff;font:600 16px/1.5 system-ui,sans-serif;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px';d.textContent='File JavaScript gagal dimuat. Pastikan semua file (app.js, bgm-loader.js, player.js, ai-lobby.js, heroes.js, hero-select.js) ter-upload di folder utama repo, lalu redeploy.';document.body.appendChild(d)}})</script>
+</body></html>
